@@ -15,8 +15,12 @@ use Illuminate\Support\Facades\Route;
 
 /* Route::get('/', function () {
     return view('welcome');
-});
- */
+}); */
+
 Route::get('/', function () {
     return view('frontend.index');
 })->name('index');
+
+Auth::routes();
+
+Route::get('/panel', 'HomeController@index')->name('panel');
