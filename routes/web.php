@@ -17,29 +17,56 @@ use Illuminate\Support\Facades\Route;
     return view('welcome');
 }); */
 
-Route::get('/', function () {
-    return view('frontend.index');
-})->name('index');
+/* Rutas del fronted en Español */
+    Route::get('/', function () {
+        return view('frontend.index');
+    })->name('index');
 
-Route::get('/bebes', function () {
-    return view('frontend.bebes');
-})->name('bebes');
+    Route::get('/babies', function () {
+        return view('frontend.babies');
+    })->name('babies');
 
-Route::get('/cumpleaños', function () {
-    return view('frontend.cumpleaños');
-})->name('cumpleaños');
+    Route::get('/birthday', function () {
+        return view('frontend.birthday');
+    })->name('birthday');
 
-Route::get('/eventos', function () {
-    return view('frontend.eventos');
-})->name('eventos');
+    Route::get('/events', function () {
+        return view('frontend.events');
+    })->name('events');
 
-Route::get('/aniversarios', function () {
-    return view('frontend.aniversarios');
-})->name('aniversarios');
+    Route::get('/anniversaries', function () {
+        return view('frontend.anniversaries');
+    })->name('anniversaries');
 
-Route::get('/graduaciones', function () {
-    return view('frontend.graduaciones');
-})->name('graduaciones');
+    Route::get('/graduations', function () {
+        return view('frontend.graduations');
+    })->name('graduations');
+
+
+/* Rutas del fronted en Ingles */
+    Route::get('/english', function () {
+        return view('frontend.english');
+    })->name('english');
+
+    Route::get('/bebes', function () {
+        return view('frontend.bebes');
+    })->name('bebes');
+
+    Route::get('/cumpleaños', function () {
+        return view('frontend.cumpleaños');
+    })->name('cumpleaños');
+
+    Route::get('/eventos', function () {
+        return view('frontend.eventos');
+    })->name('eventos');
+
+    Route::get('/aniversarios', function () {
+        return view('frontend.aniversarios');
+    })->name('aniversarios');
+
+    Route::get('/graduaciones', function () {
+        return view('frontend.graduaciones');
+    })->name('graduaciones');
 
 Auth::routes();
 
