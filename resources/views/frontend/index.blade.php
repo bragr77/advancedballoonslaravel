@@ -290,7 +290,9 @@
                                     </div>
                                 </div>
 
-                                <form class="col-md-5 formulario" method="post" action="#">
+                                <form class="col-md-5 formulario" action="{{ route('mensajes.store') }}" method="post">
+
+                                    @csrf
 
                                     <div class="input-group my-2">
                                         <div class="input-group-prepend">
@@ -304,6 +306,13 @@
                                             <span class="input-group-text" id="email">Email: &nbsp&nbsp&nbsp&nbsp</span>
                                         </div>
                                         <input type="text" class="form-control" aria-describedby="email" name="email" id="email" required>
+                                    </div>
+
+                                    <div class="input-group my-2">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text" id="telefono">Teléfono:</span>
+                                        </div>
+                                        <input type="text" class="form-control" aria-describedby="telefono" name="telefono" id="telefono" required>
                                     </div>
 
                                     <div class="input-group my-2">

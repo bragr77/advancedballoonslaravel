@@ -68,7 +68,19 @@ use Illuminate\Support\Facades\Route;
         return view('frontend.graduations');
     })->name('graduations');
 
+    Route::get('/msjenviado', function () {
+        return view('frontend.msjenviado');
+    })->name('msjenviado');
+
 
 Auth::routes();
 
-Route::get('/panel', 'HomeController@index')->name('panel');
+/* Route::get('/panel', 'HomeController@index')->name('panel'); */
+
+Route::group(['prefix' => 'panel'], function () {
+
+    Route::get('/', 'HomeController@index')->name('panel');
+
+    Route::resource('mensajes', 'MensajeController');
+
+});

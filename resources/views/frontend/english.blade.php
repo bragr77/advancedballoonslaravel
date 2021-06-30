@@ -294,6 +294,13 @@
 
                                     <div class="input-group my-2">
                                         <div class="input-group-prepend">
+                                            <span class="input-group-text" id="telefono">Phone: &nbsp&nbsp&nbsp</span>
+                                        </div>
+                                        <input type="text" class="form-control" aria-describedby="telefono" name="telefono" id="telefono" required>
+                                    </div>
+
+                                    <div class="input-group my-2">
+                                        <div class="input-group-prepend">
                                             <span class="input-group-text" id="mensaje">Message:</span>
                                         </div>
                                         <textarea class="form-control" aria-describedby="mensaje" name="mensaje" id="mensaje" required></textarea>
