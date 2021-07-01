@@ -62,7 +62,7 @@
 
                             <div class="item">
                                 <div class="service-box">
-                                    <img class="img-galeria" src="frontend/images/servicios/bebes/primercumpleaño.jpg" alt="Balloon arrangement for your first birthday">
+                                    <img class="img-galeria" src="frontend/images/servicios/bebes/primercumpleano.jpg" alt="Balloon arrangement for your first birthday">
                                     <h3 class="h3-servicios7">First birthday</h3>
                                     <a href="https://api.whatsapp.com/send?phone=17542455353&text=Saludos.%20necesito%20informaci%C3%B3n" target="_blank" class="btn btn-servicios7 btn-block">I want it!</a>
                                 </div>

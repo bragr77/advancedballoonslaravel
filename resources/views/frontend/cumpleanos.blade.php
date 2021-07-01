@@ -37,7 +37,7 @@
                         <div class="services-list owl-carousel" id="servicescarrusel">
                             <div class="item">
                                 <div class="service-box">
-                                    <img class="img-galeria" src="frontend/images/servicios/cumpleaños/jovenes.jpg" alt=" Arreglo de globos para cumpleaños de jovenes">
+                                    <img class="img-galeria" src="frontend/images/servicios/cumpleanos/jovenes.jpg" alt=" Arreglo de globos para cumpleaños de jovenes">
                                     <h3 class="h3-servicios1">Jovenes</h3>
                                     <!-- <p>Elaboración de arcos y gurinaldas de globos oarganica para interiores y exteriores.</p> -->
                                     <a href="https://api.whatsapp.com/send?phone=17542455353&text=Saludos.%20necesito%20informaci%C3%B3n" target="_blank " class="btn btn-servicios1 btn-block">¡Lo quiero!</a>
@@ -46,7 +46,7 @@
 
                             <div class="item">
                                 <div class="service-box">
-                                    <img class="img-galeria" src="frontend/images/servicios/cumpleaños/niños.jpg" alt=" Arreglo de globos para cumpleaños de jovenes">
+                                    <img class="img-galeria" src="frontend/images/servicios/cumpleanos/ninos.jpg" alt=" Arreglo de globos para cumpleaños de jovenes">
                                     <h3 class="h3-servicios1">Niños</h3>
                                     <!-- <p>Elaboración de arcos y gurinaldas de globos oarganica para interiores y exteriores.</p> -->
                                     <a href="https://api.whatsapp.com/send?phone=17542455353&text=Saludos.%20necesito%20informaci%C3%B3n" target="_blank " class="btn btn-servicios1 btn-block">¡Lo quiero!</a>
@@ -55,7 +55,7 @@
 
                             <div class="item">
                                 <div class="service-box">
-                                    <img class="img-galeria" src="frontend/images/servicios/cumpleaños/adultos.jpg" alt=" Arreglo de globos para cumpleaños de jovenes">
+                                    <img class="img-galeria" src="frontend/images/servicios/cumpleanos/adultos.jpg" alt=" Arreglo de globos para cumpleaños de jovenes">
                                     <h3 class="h3-servicios1">Adultos</h3>
                                     <!-- <p>Elaboración de arcos y gurinaldas de globos oarganica para interiores y exteriores.</p> -->
                                     <a href="https://api.whatsapp.com/send?phone=17542455353&text=Saludos.%20necesito%20informaci%C3%B3n" target="_blank " class="btn btn-servicios1 btn-block">¡Lo quiero!</a>
@@ -64,7 +64,7 @@
 
                             <div class="item">
                                 <div class="service-box">
-                                    <img class="img-galeria" src="frontend/images/servicios/cumpleaños/mascotas.jpg" alt=" Arreglo de globos para cumpleaños de Mascotas">
+                                    <img class="img-galeria" src="frontend/images/servicios/cumpleanos/mascotas.jpg" alt=" Arreglo de globos para cumpleaños de Mascotas">
                                     <h3 class="h3-servicios1">Mascotas</h3>
                                     <!-- <p>Elaboración de arcos y gurinaldas de globos oarganica para interiores y exteriores.</p> -->
                                     <a href="https://api.whatsapp.com/send?phone=17542455353&text=Saludos.%20necesito%20informaci%C3%B3n" target="_blank " class="btn btn-servicios1 btn-block">¡Lo quiero!</a>

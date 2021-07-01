@@ -65,7 +65,7 @@
 
                             <div class="item">
                                 <div class="service-box">
-                                    <img class="img-galeria" src="frontend/images/servicios/bebes/primercumpleaño.jpg" alt="Arreglo de globos para su primer cumpleños">
+                                    <img class="img-galeria" src="frontend/images/servicios/bebes/primercumpleano.jpg" alt="Arreglo de globos para su primer cumpleños">
                                     <h3 class="h3-servicios7">Primer Cumpleaños</h3>
                                     <!-- <p>Elaboración de arcos y gurinaldas de globos oarganica para interiores y exteriores.</p> -->
                                     <a href="https://api.whatsapp.com/send?phone=17542455353&text=Saludos.%20necesito%20informaci%C3%B3n" target="_blank" class="btn btn-servicios7 btn-block">¡Lo quiero!</a>

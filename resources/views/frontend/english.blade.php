@@ -85,7 +85,7 @@
                                 <div class="service-box">
                                     <a href="{{ route('birthday') }}" class="mb-2 a-servicios1">View gallery</a>
                                     <a href="{{ route('birthday') }}">
-                                        <img class="img-services1" src="frontend/images/servicios/cumpleaños.png" alt="">
+                                        <img class="img-services1" src="frontend/images/servicios/cumpleanos.png" alt="">
                                     </a>
                                     <!-- <span class="service-icon"><i class="fa fa-bookmark" aria-hidden="true"></i></span> -->
                                     <h3 class="h3-servicios1">Birthday</h3>

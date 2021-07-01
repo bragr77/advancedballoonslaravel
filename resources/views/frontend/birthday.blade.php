@@ -37,7 +37,7 @@
                         <div class="services-list owl-carousel" id="servicescarrusel">
                             <div class="item">
                                 <div class="service-box">
-                                    <img class="img-galeria" src="frontend/images/servicios/cumpleaños/jovenes.jpg" alt="Balloon arrangement for youth birthday">
+                                    <img class="img-galeria" src="frontend/images/servicios/cumpleanos/jovenes.jpg" alt="Balloon arrangement for youth birthday">
                                     <h3 class="h3-servicios1">Young boys</h3>
                                     <a href="https://api.whatsapp.com/send?phone=17542455353&text=Saludos.%20necesito%20informaci%C3%B3n" target="_blank " class="btn btn-servicios1 btn-block">I want it!</a>
                                 </div>
@@ -45,7 +45,7 @@
 
                             <div class="item">
                                 <div class="service-box">
-                                    <img class="img-galeria" src="frontend/images/servicios/cumpleaños/niños.jpg" alt="Balloon arrangement for children's birthday">
+                                    <img class="img-galeria" src="frontend/images/servicios/cumpleanos/ninos.jpg" alt="Balloon arrangement for children's birthday">
                                     <h3 class="h3-servicios1">Kids</h3>
                                     <a href="https://api.whatsapp.com/send?phone=17542455353&text=Saludos.%20necesito%20informaci%C3%B3n" target="_blank " class="btn btn-servicios1 btn-block">I want it!</a>
                                 </div>
@@ -53,7 +53,7 @@
 
                             <div class="item">
                                 <div class="service-box">
-                                    <img class="img-galeria" src="frontend/images/servicios/cumpleaños/adultos.jpg" alt="Balloon arrangement for adult birthdays">
+                                    <img class="img-galeria" src="frontend/images/servicios/cumpleanos/adultos.jpg" alt="Balloon arrangement for adult birthdays">
                                     <h3 class="h3-servicios1">Adults</h3>
                                     <a href="https://api.whatsapp.com/send?phone=17542455353&text=Saludos.%20necesito%20informaci%C3%B3n" target="_blank " class="btn btn-servicios1 btn-block">I want it!</a>
                                 </div>
@@ -61,7 +61,7 @@
 
                             <div class="item">
                                 <div class="service-box">
-                                    <img class="img-galeria" src="frontend/images/servicios/cumpleaños/mascotas.jpg" alt="Balloon arrangement for pets birthday">
+                                    <img class="img-galeria" src="frontend/images/servicios/cumpleanos/mascotas.jpg" alt="Balloon arrangement for pets birthday">
                                     <h3 class="h3-servicios1">Pets</h3>
                                     <a href="https://api.whatsapp.com/send?phone=17542455353&text=Saludos.%20necesito%20informaci%C3%B3n" target="_blank " class="btn btn-servicios1 btn-block">I want it!</a>
                                 </div>
