@@ -276,7 +276,9 @@
                                     </div>
                                 </div>
 
-                                <form class="col-md-5 formulario" method="post" action="#">
+                                <form class="col-md-5 formulario" action="{{ route('mensajes.store') }}" method="post">
+
+                                    @csrf
 
                                     <div class="input-group my-2">
                                         <div class="input-group-prepend">
