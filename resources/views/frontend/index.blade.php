@@ -14,7 +14,7 @@
         <div class="container-fluid">
             <div class="navbar">
                 <div class="logo">
-                    <img class="d-none d-md-block" src="frontend/images/logoAB.png" alt="">
+                    <img class="d-none d-md-block" src="frontend/images/logoAB2.png" alt="">
                     <img class="d-sm-block d-md-none" src="frontend/images/logoAB2.png" alt="">
                 </div>
                 <div class="navigation-row">
@@ -31,7 +31,7 @@
                     </nav>
                 </div>
                 <div>
-                    <a href="{{ route('english') }}" class="btn btn-servicios7">English</a>
+                    <a href="{{ route('english') }}" class="btn btn-servicios5">English</a>
                 </div>
             </div>
         </div>
@@ -171,7 +171,7 @@
                                     <div class="thumb-inner">
                                         <h4>Buquet de Globos</h4>
                                         <!-- <p>Arreglo de Globos para niños o niñas</p> -->
-                                        <a href="https://api.whatsapp.com/send?phone=17542455353&text=Saludos.%20necesito%20informaci%C3%B3n" target="_blank" class="mt-3 btn btn-servicios7 btn-block">¡Lo quiero!</a>
+                                        <a href="https://api.whatsapp.com/send?phone=17542455353&text=Saludos.%20necesito%20informaci%C3%B3n" target="_blank" class="mt-3 btn btn-servicios5 btn-block">¡Lo quiero!</a>
                                     </div>
                                 </div>
                             </div>
@@ -184,7 +184,7 @@
                                     <div class="thumb-inner">
                                         <h4>Buquet de Globos</h4>
                                         <!-- <p>Arreglo de Globos para niños o niñas</p> -->
-                                        <a href="https://api.whatsapp.com/send?phone=17542455353&text=Saludos.%20necesito%20informaci%C3%B3n" target="_blank" class="mt-3 btn btn-servicios7 btn-block">¡Lo quiero!</a>
+                                        <a href="https://api.whatsapp.com/send?phone=17542455353&text=Saludos.%20necesito%20informaci%C3%B3n" target="_blank" class="mt-3 btn btn-servicios5 btn-block">¡Lo quiero!</a>
                                     </div>
                                 </div>
                             </div>
@@ -197,7 +197,7 @@
                                     <div class="thumb-inner">
                                         <h4>Buquet de Globos</h4>
                                         <!-- <p>Arreglo de Globos para niños o niñas</p> -->
-                                        <a href="https://api.whatsapp.com/send?phone=17542455353&text=Saludos.%20necesito%20informaci%C3%B3n" target="_blank" class="mt-3 btn btn-servicios7 btn-block">¡Lo quiero!</a>
+                                        <a href="https://api.whatsapp.com/send?phone=17542455353&text=Saludos.%20necesito%20informaci%C3%B3n" target="_blank" class="mt-3 btn btn-servicios5 btn-block">¡Lo quiero!</a>
                                     </div>
                                 </div>
                             </div>
@@ -210,7 +210,7 @@
                                     <div class="thumb-inner">
                                         <h4>Decoración Orgánica</h4>
                                         <!-- <p>Arreglo de Globos para niños o niñas</p> -->
-                                        <a href="https://api.whatsapp.com/send?phone=17542455353&text=Saludos.%20necesito%20informaci%C3%B3n" target="_blank" class="mt-3 btn btn-servicios7 btn-block">¡Lo quiero!</a>
+                                        <a href="https://api.whatsapp.com/send?phone=17542455353&text=Saludos.%20necesito%20informaci%C3%B3n" target="_blank" class="mt-3 btn btn-servicios5 btn-block">¡Lo quiero!</a>
                                     </div>
                                 </div>
                             </div>
@@ -223,7 +223,7 @@
                                     <div class="thumb-inner">
                                         <h4>Buquet de Globos</h4>
                                         <!-- <p>Arreglo de Globos para niños o niñas</p> -->
-                                        <a href="https://api.whatsapp.com/send?phone=17542455353&text=Saludos.%20necesito%20informaci%C3%B3n" target="_blank" class="mt-3 btn btn-servicios7 btn-block">¡Lo quiero!</a>
+                                        <a href="https://api.whatsapp.com/send?phone=17542455353&text=Saludos.%20necesito%20informaci%C3%B3n" target="_blank" class="mt-3 btn btn-servicios5 btn-block">¡Lo quiero!</a>
                                     </div>
                                 </div>
                             </div>
@@ -236,7 +236,7 @@
                                     <div class="thumb-inner">
                                         <h4>Decoración Orgánica</h4>
                                         <!-- <p>Arreglo de Globos para niños o niñas</p> -->
-                                        <a href="https://api.whatsapp.com/send?phone=17542455353&text=Saludos.%20necesito%20informaci%C3%B3n" target="_blank" class="mt-3 btn btn-servicios7 btn-block">¡Lo quiero!</a>
+                                        <a href="https://api.whatsapp.com/send?phone=17542455353&text=Saludos.%20necesito%20informaci%C3%B3n" target="_blank" class="mt-3 btn btn-servicios5 btn-block">¡Lo quiero!</a>
                                     </div>
                                 </div>
                             </div>
@@ -286,7 +286,7 @@
                                 </div>
                                 <div class="codigoqr col-md-2 animate mb-3" data-animate="fadeInUp">
                                     <div id="qrcode">
-                                        <img src="https://www.codigos-qr.com/qr/php/qr_img.php?d=https%3A%2F%2Fragrtics.com%2F&s=6&e=q" alt="Generador de Códigos QR Codes" />
+                                        <img src="frontend/images/qr.jpg" alt="Generador de Códigos QR Codes" />
                                     </div>
                                 </div>
 
@@ -296,32 +296,32 @@
 
                                     <div class="input-group my-2">
                                         <div class="input-group-prepend">
-                                            <span class="input-group-text" id="nombre">Nombre:</span>
+                                            <span class="input-group-text1" id="nombre">Nombre:</span>
                                         </div>
                                         <input type="text" class="form-control" aria-describedby="nombre" name="nombre" id="nombre" required>
                                     </div>
 
                                     <div class="input-group my-2">
                                         <div class="input-group-prepend">
-                                            <span class="input-group-text" id="email">Email: &nbsp&nbsp&nbsp&nbsp</span>
+                                            <span class="input-group-text1" id="email">Email: &nbsp&nbsp&nbsp&nbsp</span>
                                         </div>
                                         <input type="text" class="form-control" aria-describedby="email" name="email" id="email" required>
                                     </div>
 
                                     <div class="input-group my-2">
                                         <div class="input-group-prepend">
-                                            <span class="input-group-text" id="telefono">Teléfono:</span>
+                                            <span class="input-group-text1" id="telefono">Teléfono:</span>
                                         </div>
                                         <input type="text" class="form-control" aria-describedby="telefono" name="telefono" id="telefono" required>
                                     </div>
 
                                     <div class="input-group my-2">
                                         <div class="input-group-prepend">
-                                            <span class="input-group-text" id="mensaje">Mensaje:</span>
+                                            <span class="input-group-text1" id="mensaje">Mensaje:</span>
                                         </div>
                                         <textarea class="form-control" aria-describedby="mensaje" name="mensaje" id="mensaje" required></textarea>
                                     </div>
-                                    <button class="btn btn-servicios7 btn-block" type="submit">Enviar</button>
+                                    <button class="btn btn-servicios5 btn-block" type="submit">Enviar</button>
                                 </form>
 
                             </div>

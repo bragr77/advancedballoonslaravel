@@ -31,7 +31,7 @@
                         <div class="title-block animate titulo-galeria mt-5" data-animate="fadeInUp">
                             <h3 class="d-none d-md-block">Cumpleaños</h3>
                             <h4 class="d-sm-block d-md-none pt-3" style="font-size: 1.5em;">Cumpleaños</h4>
-                            <a href="javascript:history.back(-1);" class="btn btn-servicios7">Regresar</a>
+                            <a href="javascript:history.back(-1);" class="btn btn-servicios1">Regresar</a>
                         </div>
 
                         <div class="services-list owl-carousel" id="servicescarrusel">

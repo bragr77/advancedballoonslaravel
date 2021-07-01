@@ -30,7 +30,7 @@
                         </div>
                     </nav>
                 </div>
-                <a href="{{ route('index') }}" class="btn btn-servicios7">Español</a>
+                <a href="{{ route('index') }}" class="btn btn-servicios5">Español</a>
             </div>
         </div>
     </header>
@@ -163,7 +163,7 @@
                                     </div>
                                     <div class="thumb-inner">
                                         <h4>Balloon Bouquet</h4>
-                                        <a href="https://api.whatsapp.com/send?phone=17542455353&text=Saludos.%20necesito%20informaci%C3%B3n" target="_blank" class="mt-3 btn btn-servicios7 btn-block">I want it!</a>
+                                        <a href="https://api.whatsapp.com/send?phone=17542455353&text=Saludos.%20necesito%20informaci%C3%B3n" target="_blank" class="mt-3 btn btn-servicios5 btn-block">I want it!</a>
                                     </div>
                                 </div>
                             </div>
@@ -175,7 +175,7 @@
                                     </div>
                                     <div class="thumb-inner">
                                         <h4>Balloon Bouquet</h4>
-                                        <a href="https://api.whatsapp.com/send?phone=17542455353&text=Saludos.%20necesito%20informaci%C3%B3n" target="_blank" class="mt-3 btn btn-servicios7 btn-block">I want it!</a>
+                                        <a href="https://api.whatsapp.com/send?phone=17542455353&text=Saludos.%20necesito%20informaci%C3%B3n" target="_blank" class="mt-3 btn btn-servicios5 btn-block">I want it!</a>
                                     </div>
                                 </div>
                             </div>
@@ -187,7 +187,7 @@
                                     </div>
                                     <div class="thumb-inner">
                                         <h4>Balloon Bouquet</h4>
-                                        <a href="https://api.whatsapp.com/send?phone=17542455353&text=Saludos.%20necesito%20informaci%C3%B3n" target="_blank" class="mt-3 btn btn-servicios7 btn-block">I want it!</a>
+                                        <a href="https://api.whatsapp.com/send?phone=17542455353&text=Saludos.%20necesito%20informaci%C3%B3n" target="_blank" class="mt-3 btn btn-servicios5 btn-block">I want it!</a>
                                     </div>
                                 </div>
                             </div>
@@ -199,7 +199,7 @@
                                     </div>
                                     <div class="thumb-inner">
                                         <h4>Organic Decoration</h4>
-                                        <a href="https://api.whatsapp.com/send?phone=17542455353&text=Saludos.%20necesito%20informaci%C3%B3n" target="_blank" class="mt-3 btn btn-servicios7 btn-block">I want it!</a>
+                                        <a href="https://api.whatsapp.com/send?phone=17542455353&text=Saludos.%20necesito%20informaci%C3%B3n" target="_blank" class="mt-3 btn btn-servicios5 btn-block">I want it!</a>
                                     </div>
                                 </div>
                             </div>
@@ -211,7 +211,7 @@
                                     </div>
                                     <div class="thumb-inner">
                                         <h4>Balloon Bouquet</h4>
-                                        <a href="https://api.whatsapp.com/send?phone=17542455353&text=Saludos.%20necesito%20informaci%C3%B3n" target="_blank" class="mt-3 btn btn-servicios7 btn-block">I want it!</a>
+                                        <a href="https://api.whatsapp.com/send?phone=17542455353&text=Saludos.%20necesito%20informaci%C3%B3n" target="_blank" class="mt-3 btn btn-servicios5 btn-block">I want it!</a>
                                     </div>
                                 </div>
                             </div>
@@ -223,7 +223,7 @@
                                     </div>
                                     <div class="thumb-inner">
                                         <h4>Organic Decoration</h4>
-                                        <a href="https://api.whatsapp.com/send?phone=17542455353&text=Saludos.%20necesito%20informaci%C3%B3n" target="_blank" class="mt-3 btn btn-servicios7 btn-block">I want it!</a>
+                                        <a href="https://api.whatsapp.com/send?phone=17542455353&text=Saludos.%20necesito%20informaci%C3%B3n" target="_blank" class="mt-3 btn btn-servicios5 btn-block">I want it!</a>
                                     </div>
                                 </div>
                             </div>
@@ -282,32 +282,32 @@
 
                                     <div class="input-group my-2">
                                         <div class="input-group-prepend">
-                                            <span class="input-group-text" id="nombre">Name: &nbsp&nbsp&nbsp&nbsp</span>
+                                            <span class="input-group-text1" id="nombre">Name: &nbsp&nbsp&nbsp&nbsp</span>
                                         </div>
                                         <input type="text" class="form-control" aria-describedby="nombre" name="nombre" id="nombre" required>
                                     </div>
 
                                     <div class="input-group my-2">
                                         <div class="input-group-prepend">
-                                            <span class="input-group-text" id="email">Email: &nbsp&nbsp&nbsp&nbsp&nbsp</span>
+                                            <span class="input-group-text1" id="email">Email: &nbsp&nbsp&nbsp&nbsp&nbsp</span>
                                         </div>
                                         <input type="text" class="form-control" aria-describedby="email" name="email" id="email" required>
                                     </div>
 
                                     <div class="input-group my-2">
                                         <div class="input-group-prepend">
-                                            <span class="input-group-text" id="telefono">Phone: &nbsp&nbsp&nbsp</span>
+                                            <span class="input-group-text1" id="telefono">Phone: &nbsp&nbsp&nbsp</span>
                                         </div>
                                         <input type="text" class="form-control" aria-describedby="telefono" name="telefono" id="telefono" required>
                                     </div>
 
                                     <div class="input-group my-2">
                                         <div class="input-group-prepend">
-                                            <span class="input-group-text" id="mensaje">Message:</span>
+                                            <span class="input-group-text1" id="mensaje">Message:</span>
                                         </div>
                                         <textarea class="form-control" aria-describedby="mensaje" name="mensaje" id="mensaje" required></textarea>
                                     </div>
-                                    <button class="btn btn-servicios7 btn-block" type="submit">Send</button>
+                                    <button class="btn btn-servicios5 btn-block" type="submit">Send</button>
                                 </form>
 
                             </div>

@@ -27,7 +27,7 @@ use Illuminate\Support\Facades\Route;
     })->name('bebes');
 
     Route::get('/cumpleaños', function () {
-        return view('frontend.cumpleaños');
+        return view('frontend.cumpleanos');
     })->name('cumpleaños');
 
     Route::get('/eventos', function () {

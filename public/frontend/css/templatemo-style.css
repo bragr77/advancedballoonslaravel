@@ -452,15 +452,16 @@ a#logo {
     display: inline-block;
     line-height: 50px;
     text-align: center;
-    background: rgba(187, 1, 50, 0.4);
-    color: rgba(255, 255, 255, 1);
+    background: #bb0132;
+    color: #fff;
     font-size: 18px;
     border-radius: 20px 0px 0px 20px;
 }
 
 .social-icons li a:hover {
-    color: #000;
-    background-color: rgba(187, 1, 50, 0.1);
+    color: #fff;
+    background: #ac002a;
+    text-decoration: none;
 }
 
 
@@ -1238,7 +1239,7 @@ textarea.form-control {
 }
 
 .a-servicios5:hover {
-    color: #bb0132;
+    color: #c9a1ab;
     text-decoration: none;
 }
 
@@ -1351,4 +1352,22 @@ textarea.form-control {
     flex-direction: column;
     align-items: stretch;
     justify-content: space-around;
+}
+
+.input-group-text1 {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: .375rem .75rem;
+    margin-bottom: 0;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.5;
+    color: #4d4d4d;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
 }
