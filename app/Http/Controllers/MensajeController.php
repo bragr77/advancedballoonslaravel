@@ -17,7 +17,15 @@ class MensajeController extends Controller
      */
     public function index()
     {
-        //
+        $cont = 1;
+
+        $mensajes = Mensaje::all();
+
+        return view('backend.mensajes.index',[
+            'mensajes' => $mensajes,
+            'cont' => $cont,
+        ]);
+
     }
 
     /**
@@ -74,7 +82,15 @@ class MensajeController extends Controller
      */
     public function show($id)
     {
-        //
+        $mensaje = Mensaje::find($id);
+
+        $mensaje->visto = 1;
+
+        $mensaje->save();
+
+        return view('backend.mensajes.show', [
+            'mensaje' => $mensaje,
+        ]);
     }
 
     /**
@@ -108,6 +124,10 @@ class MensajeController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $mensaje = Mensaje::find($id);
+
+        $mensaje->delete();
+
+        return redirect()->route('mensajes.index');
     }
 }

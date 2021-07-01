@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Mensaje;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
@@ -23,6 +24,19 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('home');
+        $mcontador      = 0;
+        $mensajes       = Mensaje::all();
+
+
+        foreach ($mensajes as $mensaje) {
+            if ($mensaje->visto == 0) {
+                $mcontador++;
+            }
+        }
+
+        return view('backend.index', [
+            'mcontador' => $mcontador,
+        ]);
+        return view('backend.index');
     }
 }
