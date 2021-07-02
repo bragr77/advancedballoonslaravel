@@ -51,7 +51,7 @@ class PortafolioController extends Controller
         if ($request->hasFile('img_path')) {
              $file = $request->file('img_path');
              $name = $request->input('imagen') . time() . ".jpg";
-             $file->move(base_path('\public\frontend\images\portafolio'), $name);
+             $file->move(public_path() . '/frontend/images/portafolio', $name);
 
              $portafolio->imagen = $name;
          }
@@ -109,7 +109,7 @@ class PortafolioController extends Controller
         if ($request->hasFile('img_path')) {
              $file = $request->file('img_path');
              $name = $request->input('imagen');
-             $file->move(base_path('\public\frontend\images\portafolio'), $name);
+             $file->move(public_path() . '/frontend/images/portafolio', $name);
 
              $portafolio->imagen = $name;
          }
@@ -129,7 +129,7 @@ class PortafolioController extends Controller
     {
         $portafolio = Portafolio::find($id);
 
-        $filepath = base_path() . '/public/frontend/images/portafolio/' . $portafolio->imagen;
+        $filepath = public_path() . '/frontend/images/portafolio/' . $portafolio->imagen;
         \File::delete($filepath);
 
         $portafolio->delete();
