@@ -18,9 +18,11 @@ use Illuminate\Support\Facades\Route;
 }); */
 
 /* Rutas del fronted en Español */
-    Route::get('/', function () {
+    Route::get('/', 'IndexController@index')->name('index');
+
+    /* Route::get('/', function () {
         return view('frontend.index');
-    })->name('index');
+    })->name('index'); */
 
     Route::get('/bebes', function () {
         return view('frontend.bebes');
@@ -44,9 +46,11 @@ use Illuminate\Support\Facades\Route;
 
 
 /* Rutas del fronted en Ingles */
-    Route::get('/english', function () {
+    Route::get('/english', 'EnglishController@index')->name('english');
+
+   /*  Route::get('/english', function () {
         return view('frontend.english');
-    })->name('english');
+    })->name('english'); */
 
     Route::get('/babies', function () {
         return view('frontend.babies');
@@ -82,5 +86,7 @@ Route::group(['prefix' => 'panel'], function () {
     Route::get('/', 'HomeController@index')->name('panel');
 
     Route::resource('mensajes', 'MensajeController');
+
+    Route::resource('portafolio', 'PortafolioController');
 
 });
