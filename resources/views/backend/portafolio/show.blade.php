@@ -9,10 +9,10 @@
             <div class="card" style="width: 20rem;">
                 <img src=" {{  asset('frontend/images/portafolio/'.$portafolio->imagen) }}" alt="{{ $portafolio->nombre }}">
                 <div class="card-body text-center">
-                    <h5 class="card-title font-weight-bold">Nombre:</h5>
-                    <h5 class="card-title">{{ $portafolio->nombre }}</h5>
-                    <h5 class="card-title font-weight-bold">Nombre en Ingles:</h5>
-                    <h5 class="card-title">{{ $portafolio->nombreingles }}</h5>
+                    <p class="card-title font-weight-bold">Nombre: <span class="font-weight-normal">{{ $portafolio->nombre }}</span></p>
+                    <p class="card-title font-weight-bold">Nombre en Ingles: <span class="font-weight-normal">{{ $portafolio->nombreingles }}</span></p>
+                    <p class="card-title font-weight-bold">Visible: <span class="font-weight-normal">{{ $portafolio->visible }}</span></p>
+
                 </div>
                 <div class="card-footer text-center">
                     <a href="{{ route('portafolio.edit', $portafolio) }}" class="btn btn-success">Editar</a>
