@@ -156,78 +156,24 @@
                         </div>
 
                         <div class="gallery-list owl-carousel" id="galerycarrusel">
-                            <div class="item">
-                                <div class="portfolio-item">
-                                    <div class="thumb">
-                                        <img src="frontend/images/portafolio/trabajo1.jpg" alt="Balloon Bouquet">
-                                    </div>
-                                    <div class="thumb-inner">
-                                        <h4>Balloon Bouquet</h4>
-                                        <a href="https://api.whatsapp.com/send?phone=17542455353&text=Saludos.%20necesito%20informaci%C3%B3n" target="_blank" class="mt-3 btn btn-servicios5 btn-block">I want it!</a>
-                                    </div>
-                                </div>
-                            </div>
 
-                            <div class="item">
-                                <div class="portfolio-item">
-                                    <div class="thumb">
-                                        <img src="frontend/images/portafolio/trabajo2.jpg" alt="Balloon Bouquet">
-                                    </div>
-                                    <div class="thumb-inner">
-                                        <h4>Balloon Bouquet</h4>
-                                        <a href="https://api.whatsapp.com/send?phone=17542455353&text=Saludos.%20necesito%20informaci%C3%B3n" target="_blank" class="mt-3 btn btn-servicios5 btn-block">I want it!</a>
-                                    </div>
-                                </div>
-                            </div>
+                            @foreach ($portafolios as $portafolio)
 
-                            <div class="item">
-                                <div class="portfolio-item">
-                                    <div class="thumb">
-                                        <img src="frontend/images/portafolio/trabajo3.jpg" alt="Balloon Bouquet">
+                                @if ($portafolio->visible == "SI")
+                                    <div class="item">
+                                        <div class="portfolio-item">
+                                            <div class="thumb">
+                                                <img src="{{ asset('frontend/images/portafolio/'.$portafolio->imagen) }}" alt="{{ $portafolio->nombreingles }}">
+                                            </div>
+                                            <div class="thumb-inner">
+                                                <h4>{{ $portafolio->nombreingles }}</h4>
+                                                <a href="https://api.whatsapp.com/send?phone=17542455353&text=Saludos.%20necesito%20informaci%C3%B3n" target="_blank" class="mt-3 btn btn-servicios5 btn-block">I want it!</a>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="thumb-inner">
-                                        <h4>Balloon Bouquet</h4>
-                                        <a href="https://api.whatsapp.com/send?phone=17542455353&text=Saludos.%20necesito%20informaci%C3%B3n" target="_blank" class="mt-3 btn btn-servicios5 btn-block">I want it!</a>
-                                    </div>
-                                </div>
-                            </div>
+                                @endif
 
-                            <div class="item">
-                                <div class="portfolio-item">
-                                    <div class="thumb">
-                                        <img src="frontend/images/portafolio/trabajo4.jpg" alt="Organic balloon decoration">
-                                    </div>
-                                    <div class="thumb-inner">
-                                        <h4>Organic Decoration</h4>
-                                        <a href="https://api.whatsapp.com/send?phone=17542455353&text=Saludos.%20necesito%20informaci%C3%B3n" target="_blank" class="mt-3 btn btn-servicios5 btn-block">I want it!</a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="item">
-                                <div class="portfolio-item">
-                                    <div class="thumb">
-                                        <img src="frontend/images/portafolio/trabajo5.jpg" alt="Balloon Bouquet">
-                                    </div>
-                                    <div class="thumb-inner">
-                                        <h4>Balloon Bouquet</h4>
-                                        <a href="https://api.whatsapp.com/send?phone=17542455353&text=Saludos.%20necesito%20informaci%C3%B3n" target="_blank" class="mt-3 btn btn-servicios5 btn-block">I want it!</a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="item">
-                                <div class="portfolio-item">
-                                    <div class="thumb">
-                                        <img src="frontend/images/portafolio/trabajo6.jpg" alt="Organic balloon decoration">
-                                    </div>
-                                    <div class="thumb-inner">
-                                        <h4>Organic Decoration</h4>
-                                        <a href="https://api.whatsapp.com/send?phone=17542455353&text=Saludos.%20necesito%20informaci%C3%B3n" target="_blank" class="mt-3 btn btn-servicios5 btn-block">I want it!</a>
-                                    </div>
-                                </div>
-                            </div>
-
+                            @endforeach
 
                         </div>
                         <div class="mt-3">

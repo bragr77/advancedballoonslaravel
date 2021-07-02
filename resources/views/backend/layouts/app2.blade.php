@@ -27,12 +27,6 @@
     {{--  iconos font awesone  --}}
     <link href="{{  asset('backend/vendor/fontawesome-free/css/all.min.css') }}" rel="stylesheet" type="text/css">
 
-    {{--  datepicker  --}}
-    <link rel="stylesheet" type="text/css" href="{{ asset('backend/datepicker/css/bootstrap-datepicker.standalone.min.css') }}"/>
-
-    {{--  SCEditor  --}}
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sceditor@3/minified/themes/default.min.css" />
-
 </head>
 
 <body id="page-top">
@@ -68,6 +62,29 @@
                     <i class="fas fa-inbox"></i>
                     <span>Mensajes Recibidos</span></a>
             </li>
+
+            <!-- Divider -->
+            <hr class="sidebar-divider">
+
+            <!-- Heading -->
+            <div class="sidebar-heading">
+                Portafolio
+            </div>
+
+            <li class="nav-item active">
+                <a class="nav-link" href="{{ route('portafolio.index') }}">
+                    <i class="fas fa-clipboard-list"></i>
+                    <span>Items</span>
+                </a>
+            </li>
+
+            <li class="nav-item active">
+                <a class="nav-link" href="{{ route('portafolio.create') }}">
+                    <i class="fas fa-plus"></i>
+                    <span>Crear item</span>
+                </a>
+            </li>
+
 
             <!-- Divider -->
             <hr class="sidebar-divider d-none d-md-block">
@@ -187,7 +204,7 @@
 
     <script>
         $(document).ready(function() {
-            $('#mensajes').DataTable({
+            $('#mensajes, #portafolios').DataTable({
                 language: {
                     "sProcessing":     "Procesando...",
                     "sLengthMenu":     'Mostrar <select>'+
