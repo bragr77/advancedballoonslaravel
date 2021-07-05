@@ -44,8 +44,12 @@ use Illuminate\Support\Facades\Route;
         return view('frontend.graduaciones');
     })->name('graduaciones');
 
+    Route::get('/fotografia', function () {
+        return view('frontend.fotografia');
+    })->name('fotografia');
 
-/* Rutas del fronted en Ingles */
+
+    /* Rutas del fronted en Ingles */
     Route::get('/english', 'EnglishController@index')->name('english');
 
    /*  Route::get('/english', function () {
@@ -71,6 +75,10 @@ use Illuminate\Support\Facades\Route;
     Route::get('/graduations', function () {
         return view('frontend.graduations');
     })->name('graduations');
+
+    Route::get('/photography', function () {
+        return view('frontend.photography');
+    })->name('photography');
 
     Route::get('/msjenviado', function () {
         return view('frontend.msjenviado');

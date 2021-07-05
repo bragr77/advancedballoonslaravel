@@ -136,6 +136,20 @@
                                 </div>
                             </div>
 
+                            <div class="item">
+                                <div class="service-box">
+                                    <a href="{{ route('fotografia') }}" class="mb-2 a-servicios2">Ver Galeria</a>
+                                    <a href="{{ route('fotografia') }}">
+                                        <img class="img-services1" src="frontend/images/servicios/fotografia.png" alt="">
+                                    </a>
+                                    <!-- <span class="service-icon"><i class="fa fa-bookmark" aria-hidden="true"></i></span> -->
+                                    <h3 class="h3-servicios2">Fotografía</h3>
+                                    <!-- <p>Entrega de globos con helio, para cumpleaños y cualquier tipo de evento.</p> -->
+                                    <a href="https://api.whatsapp.com/send?phone=17542455353&text=Saludos.%20necesito%20informaci%C3%B3n" target="_blank" class="btn btn-servicios2 btn-block">¡Lo quiero!</a>
+                                </div>
+                            </div>
+
+
                         </div>
 
                         <div class="mt-4">
