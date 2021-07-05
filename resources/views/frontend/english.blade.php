@@ -129,18 +129,6 @@
                                 </div>
                             </div>
 
-                            <div class="item">
-                                <div class="service-box">
-                                    <a href="{{ route('photography') }}" class="mb-2 a-servicios2">View gallery</a>
-                                    <a href="{{ route('photography') }}">
-                                        <img class="img-services1" src="frontend/images/servicios/fotografia.png" alt="">
-                                    </a>
-                                    <!-- <span class="service-icon"><i class="fa fa-bookmark" aria-hidden="true"></i></span> -->
-                                    <h3 class="h3-servicios2">Photography</h3>
-                                    <a href="https://api.whatsapp.com/send?phone=17542455353&text=Saludos.%20necesito%20informaci%C3%B3n" target="_blank" class="btn btn-servicios2 btn-block">I want it!</a>
-                                </div>
-                            </div>
-
                         </div>
 
                         <div class="mt-4">
