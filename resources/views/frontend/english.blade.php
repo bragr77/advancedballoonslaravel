@@ -216,7 +216,7 @@
                                 <div class="col-md-5 animate" data-animate="fadeInUp">
                                     <div class="contact-box">
                                         <div class="contact-row">
-                                            <i class="fas fa-map-marked-alt"></i> 10159 nw 33 st coral springs Fl 33065
+                                            <i class="fas fa-map-marked-alt"></i> 4141 NW 114 TH AVE APT #2 <br> CORAL SPRINGS FL 33065
                                         </div>
                                         <div class="contact-row">
                                             <i class="fas fa-headset"></i> Lisa Ramirez: &nbsp&nbsp&nbsp&nbsp&nbsp 754-2455353
