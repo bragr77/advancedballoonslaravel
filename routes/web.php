@@ -18,11 +18,7 @@ use Illuminate\Support\Facades\Route;
 }); */
 
 /* Rutas del fronted en Español */
-    Route::get('/', 'IndexController@index')->name('index');
-
-    /* Route::get('/', function () {
-        return view('frontend.index');
-    })->name('index'); */
+    Route::get('/español', 'IndexController@index')->name('español');
 
     Route::get('/bebes', function () {
         return view('frontend.bebes');
@@ -50,11 +46,12 @@ use Illuminate\Support\Facades\Route;
 
 
     /* Rutas del fronted en Ingles */
-    Route::get('/english', 'EnglishController@index')->name('english');
+    Route::get('/', 'EnglishController@index')->name('index');
 
-   /*  Route::get('/english', function () {
-        return view('frontend.english');
-    })->name('english'); */
+    /* Route::get('/', 'IndexController@index')->name('index');
+    Route::get('/english', 'EnglishController@index')->name('english'); */
+
+
 
     Route::get('/babies', function () {
         return view('frontend.babies');

@@ -30,7 +30,7 @@
                         </div>
                     </nav>
                 </div>
-                <a href="{{ route('index') }}" class="btn btn-servicios5">Español</a>
+                <a href="{{ route('español') }}" class="btn btn-servicios5">Español</a>
             </div>
         </div>
     </header>

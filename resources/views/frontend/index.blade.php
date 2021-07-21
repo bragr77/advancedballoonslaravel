@@ -31,7 +31,7 @@
                     </nav>
                 </div>
                 <div>
-                    <a href="{{ route('english') }}" class="btn btn-servicios5">English</a>
+                    <a href="{{ route('index') }}" class="btn btn-servicios5">English</a>
                 </div>
             </div>
         </div>
