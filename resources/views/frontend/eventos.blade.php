@@ -80,10 +80,6 @@
                                 </div>
                             </div>
 
-
-
-
-
                         </div>
 
                         <div class="mt-2">
@@ -108,7 +104,7 @@
         <div class="text-right">
             <ul class="social-icons">
                 <li><a href="https://www.instagram.com/advancedballoons/" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a></li>
-                <li><a href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="https://www.facebook.com/Advanced-Balloons-104652561857315" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
                 <li><a href="https://api.whatsapp.com/send?phone=17542455353&text=Saludos.%20necesito%20informaci%C3%B3n" target="_blank" title="Whatsapp"><i class="fab fa-whatsapp"></i></i></a></li>
             </ul>
         </div>
